@@ -1,0 +1,91 @@
+1. For the given JSON iterate over all for loops (for, for in, for of, forEach) ?
+
+Ans:
+
+Code:
+let arr = [1,2,3,4,5,6,7,8,9,10];
+
+//for loop
+for(i=0; i<arr.length; i++){
+    console.log(`Index: ${i}, value: ${arr[i]}`);
+}
+
+//for-in loop
+for(let i in arr){
+    console.log(`Index: ${i}, value: ${arr[i]}`);
+}
+
+//for-of loop
+for(let i of arr){
+    console.log(`Index: ${arr.indexOf(i)}, value: ${i}`);
+}
+
+//for-each loop
+let result = [];
+arr.forEach(data);
+function data(index, currentvalue){
+    result+="Index: "+currentvalue+" "+"value: "+index+"\n ";
+}
+console.log(result);
+});
+
+Output: (Same output for all the loops above)
+Index: 0, value: 1
+Index: 1, value: 2
+Index: 2, value: 3
+Index: 3, value: 4
+Index: 4, value: 5
+Index: 5, value: 6
+Index: 6, value: 7
+Index: 7, value: 8
+Index: 8, value: 9
+Index: 9, value: 10
+
+2. Create your own resume data in JSON format ?
+
+Ans:
+
+let resumeData = {
+    "name": "Jagadeesh",
+    "age": "24",
+    "DOB": "24-03-1998",
+    "BirthPlace": "Hyderabad",
+    "Favsport": "Cricket",
+    "Skill2": "Functional testing",
+    "Skill3": "Defect analyser",
+    "Hobbies": {
+        "Hobby1": "Cricket",
+        "Hobby2": "Watching movies",
+        "Hobby3": "Travelling"
+        }
+};
+
+3. Read about the difference between window, screen and document in javascript ?
+
+Ans: 
+
+I have gone thru the concepts "window", "screen", "javascript"
+
+4. Codekata practice ?
+
+Ans:
+
+Scored 140 Geekcoins in Codekata on this day
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
